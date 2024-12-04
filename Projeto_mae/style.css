@@ -63,7 +63,7 @@ header{
 }
 
 .contaneir-resumo h2{
-    font-size: 35px;
+    font-size: 250%;
     text-align: center;
     font-weight: bold;
     font-family: "Sour Gummy", sans-serif;
@@ -76,7 +76,7 @@ header{
 .contaneir-resumo p{
     text-align: center;
     font-family: "Sour Gummy", sans-serif;
-    font-size: 25px;
+    font-size: 150%;
 }
 
 .center img{
@@ -108,7 +108,7 @@ header{
 .container-section > h2{
     padding: 55px;
     color: white;
-    font-size: 20px;
+    font-size: 180%;
     text-align: center;
     font-family: "Sour Gummy", sans-serif;;
 }
@@ -138,17 +138,16 @@ header{
 }
 
 .text-container h2{
-    font-size: 40px;
+    font-size: 240%;
     padding: 10px;
     text-align: center;
 }
 
 .text-container p{
     text-align: center;
-    font-size: 12px;
     font-weight: bold;
     color: white;
-    font-size: 18px;
+    font-size: 120%;
 }
 
 .text-container ul {
@@ -161,7 +160,7 @@ header{
     align-items: center;
     padding-left: 25px;
     line-height: 20px;
-    font-size: 20px;
+    font-size: 130%;
 }
 
 .text-container ul li::before {
@@ -199,7 +198,7 @@ header{
 }
 
 .informations p{
-    font-size: 20px;
+    font-size: 120%;
     font-family: "Sour Gummy", sans-serif;;
     margin: 10px;
 }
