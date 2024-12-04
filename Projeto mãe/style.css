@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    margin: 0;
+}
+.center{
+    width: 1280px;
+    margin: 0 auto;
+}
+header{
+    min-width: 1200px;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+}
+
+.navegation{
+    display: flex;
+    justify-content: flex-end;
+    position:absolute;
+    top:0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 50px;
+    gap: 25px;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.navegation a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+    border-bottom: 2px solid black;
+    width: 130px;
+    text-align: center;
+    border-radius: 5px;
+    /* background-color: #919191; */
+    
+}
+.container-image > img{
+    display: flex;
+    margin: 4% 0 4% 150px;
+    width: 30%;
+    height: 40%;
+    float: left;
+    border-radius: 10%;
+    border: 5px solid black;
+    box-shadow: 0 0 3 #999;
+}
+.contaneir-resumo{
+    display: flex;
+    float: right;
+    margin: 13% 200px 4% 0;
+    flex-direction: column;
+    width: 350px;
+}
+
+.contaneir-resumo h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Sour Gummy", sans-serif;
+    font-style: italic;
+    color: black;
+    margin: 10px 10px;
+    font-weight: bold;
+}
+
+.contaneir-resumo p{
+    text-align: end;
+    text-align: center;
+    font-family: "Sour Gummy", sans-serif;;
+}
+
+.center img{
+    width: 1000px;
+    margin-left: -350px;
+    margin-top: -240px;
+}
+.logo_principal img{
+    width: 1700px;
+    margin-left: -350px;
+    margin-top: -150px;
+}
+
+.container-banner{
+    width: 100%;
+    height: 98vh;
+    background-image: url(/Imagens/fundo_teste.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.container-info{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Imagens/teste_2.jpg);
+}
+.container-section > h2{
+    padding: 55px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Sour Gummy", sans-serif;;
+}
+.container-section{
+    width: 100%;
+    height: 101vh;
+    /* background-image: url(/Imagens/teste_2.jpg); */
+    background-color: #919191;
+}
+
+.container-single{
+    float: left;
+    width: 32%;
+    background-color: #8C1F07;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.text-container{
+    font-weight: normal;
+    font-size: 15px;
+    font-family: "Sour Gummy", sans-serif;;
+    color: white;
+    margin: 0 30px;
+    height: 210px;
+}
+
+.text-container h2{
+    padding: 10px;
+    text-align: center;
+}
+
+.text-container p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.text-container ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.text-container ul li {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    line-height: 20px;
+}
+
+.text-container ul li::before {
+    content: '';
+    background: url(https://img.icons8.com/?size=100&id=36298&format=png&color=000000) no-repeat center; 
+    background-size: 20px 20px; 
+    width: 30px; 
+    height: 30px;
+    margin-right: 10px;
+}
+
+.container-footer{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    float: inline-end;
+}
+
+.container-footer > .informations{
+    display: flex;
+    background-color: white;
+    width: 32%;
+    height: 90%;
+    border: black 1px solid;
+    margin: 10px 8px;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.informations h2{
+    margin-top: 25px;
+    font-family: "Sour Gummy", sans-serif;;
+}
+
+.informations p{
+    font-size: 15px;
+    font-family: "Sour Gummy", sans-serif;;
+    margin: 5px;
+}
+
+.informations > .title{
+    font-weight: bold;
+}
+.title > img{
+    height: 30px;
+    width: 30px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.informations iframe{
+    width: 80%;
+    height: 110px;
+    box-shadow: 0 0 3px #999;
+}
